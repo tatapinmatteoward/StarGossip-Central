@@ -1,0 +1,219 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="StarGossip Central - Home" description="Dive into the world of celebrity gossip, exclusive insights, and star spotlights at StarGossip Central, your premier destination for all things Hollywood and beyond.">
+  <!-- Hero Section with Luxury Gradient -->
+  <div class="relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-[#003366] via-[#002244] to-[#001133]"></div>
+    <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiPjxkZWZzPjxwYXR0ZXJuIGlkPSJwYXR0ZXJuIiB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHBhdHRlcm5Vbml0cz0idXNlclNwYWNlT25Vc2UiIHBhdHRlcm5UcmFuc2Zvcm09InJvdGF0ZSg0NSkiPjxwYXRoIGQ9Ik0wIDBIMDRWMDBIMFYwWiIgZmlsbD0icmdiYSgyNTUsIDI1NSwgMjU1LCAwLjEpIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI3BhdHRlcm4pIi8+PC9zdmc+')] opacity-10"></div>
+    
+    <div class="relative container mx-auto px-4 py-24 md:py-32 lg:py-40">
+      <div class="max-w-3xl mx-auto text-center">
+        <div class="inline-flex items-center justify-center p-3 mb-6 bg-[#FF6F61] rounded-full animate-pulse">
+          <i class="fas fa-star text-white text-xl"></i>
+        </div>
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+          StarGossip Central
+        </h1>
+        <p class="text-xl md:text-2xl text-[#e0e0e0] mb-10 max-w-2xl mx-auto">
+          Your Ultimate Hub for Celebrity Gossip, Spotlights, and Exclusive Insights
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center gap-4">
+          <button class="px-8 py-3 bg-[#FF6F61] hover:bg-[#e55e50] text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300">
+            Latest Buzz
+          </button>
+          <button class="px-8 py-3 bg-transparent border-2 border-white text-white hover:bg-white hover:text-[#003366] font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
+            Star Spotlights
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Latest Buzz Section -->
+  <section class="py-16 bg-gradient-to-b from-[#001a33] to-[#000a1a]">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Latest Buzz</h2>
+        <div class="w-24 h-1 bg-[#FF6F61] mx-auto rounded-full"></div>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Buzz Card 1 -->
+        <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-white/10">
+          <div class="flex items-center mb-4">
+            <div class="w-12 h-12 bg-[#FF6F61] rounded-full flex items-center justify-center mr-4">
+              <i class="fas fa-heart text-white text-xl"></i>
+            </div>
+            <h3 class="text-xl font-bold text-white">Hollywood's Hottest Couple Alert</h3>
+          </div>
+          <p class="text-[#d0d0d0] mb-4">Are [Celebrity A] and [Celebrity B] tying the knot? Insider sources spill the tea!</p>
+          <div class="flex items-center text-[#FF6F61] font-semibold">
+            <span>Read more</span>
+            <i class="fas fa-arrow-right ml-2"></i>
+          </div>
+        </div>
+        
+        <!-- Buzz Card 2 -->
+        <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-white/10">
+          <div class="flex items-center mb-4">
+            <div class="w-12 h-12 bg-[#FF6F61] rounded-full flex items-center justify-center mr-4">
+              <i class="fas fa-trophy text-white text-xl"></i>
+            </div>
+            <h3 class="text-xl font-bold text-white">Award Season Shake-Up</h3>
+          </div>
+          <p class="text-[#d0d0d0] mb-4">Exclusive predictions on who will dominate the Oscars this year.</p>
+          <div class="flex items-center text-[#FF6F61] font-semibold">
+            <span>Read more</span>
+            <i class="fas fa-arrow-right ml-2"></i>
+          </div>
+        </div>
+        
+        <!-- Buzz Card 3 -->
+        <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-white/10">
+          <div class="flex items-center mb-4">
+            <div class="w-12 h-12 bg-[#FF6F61] rounded-full flex items-center justify-center mr-4">
+              <i class="fas fa-fire text-white text-xl"></i>
+            </div>
+            <h3 class="text-xl font-bold text-white">Scandal in the Spotlight</h3>
+          </div>
+          <p class="text-[#d0d0d0] mb-4">Uncover the truth behind that viral social media feud.</p>
+          <div class="flex items-center text-[#FF6F61] font-semibold">
+            <span>Read more</span>
+            <i class="fas fa-arrow-right ml-2"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Spotlights Section -->
+  <section class="py-16 bg-gradient-to-b from-[#000a1a] to-[#000000]">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Featured Spotlights</h2>
+        <div class="w-24 h-1 bg-[#FF6F61] mx-auto rounded-full"></div>
+      </div>
+      
+      <div class="max-w-4xl mx-auto">
+        <!-- Spotlight Card -->
+        <div class="bg-gradient-to-r from-[#002244] to-[#001133] rounded-2xl p-8 md:p-12 shadow-2xl border border-white/10 mb-12">
+          <div class="flex flex-col md:flex-row items-center">
+            <div class="mb-6 md:mb-0 md:mr-8">
+              <div class="w-32 h-32 md:w-40 md:h-40 rounded-full bg-gradient-to-br from-[#FF6F61] to-[#FF5544] flex items-center justify-center">
+                <i class="fas fa-microphone text-white text-4xl"></i>
+              </div>
+            </div>
+            <div class="flex-1 text-center md:text-left">
+              <div class="inline-flex items-center justify-center px-4 py-1 mb-4 bg-[#FF6F61]/20 text-[#FF6F61] rounded-full text-sm font-semibold">
+                <i class="fas fa-star mr-2"></i> Iconic Interview
+              </div>
+              <h3 class="text-2xl md:text-3xl font-bold text-white mb-4">Hear directly from the stars</h3>
+              <p class="text-[#d0d0d0] mb-6 max-w-2xl">
+                In our in-depth chats, we bring you exclusive insights and raw confessions from A-list celebrities, giving you a front-row seat to Hollywood's most intimate moments.
+              </p>
+              <div class="flex flex-wrap justify-center md:justify-start gap-4">
+                <button class="px-6 py-2 bg-[#FF6F61] hover:bg-[#e55e50] text-white font-semibold rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
+                  Read Full Interview
+                </button>
+                <button class="px-6 py-2 border border-[#FF6F61] text-[#FF6F61] hover:bg-[#FF6F61]/10 font-semibold rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
+                  More Spotlights
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Additional Spotlights Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div class="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10 hover:border-[#FF6F61]/50 transition-all duration-300">
+            <div class="flex items-start mb-4">
+              <div class="w-10 h-10 bg-[#003366] rounded-full flex items-center justify-center mr-3">
+                <i class="fas fa-glasses text-white"></i>
+              </div>
+              <div>
+                <h4 class="text-lg font-bold text-white">Behind the Red Carpet</h4>
+                <p class="text-[#b0b0b0] text-sm">Exclusive designer insights</p>
+              </div>
+            </div>
+            <p class="text-[#d0d0d0] mb-4">Discover the stories behind your favorite celebrity fashion moments</p>
+            <a href="#" class="text-[#FF6F61] font-semibold flex items-center">
+              Read more <i class="fas fa-arrow-right ml-2 text-sm"></i>
+            </a>
+          </div>
+          
+          <div class="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10 hover:border-[#FF6F61]/50 transition-all duration-300">
+            <div class="flex items-start mb-4">
+              <div class="w-10 h-10 bg-[#003366] rounded-full flex items-center justify-center mr-3">
+                <i class="fas fa-heart text-white"></i>
+              </div>
+              <div>
+                <h4 class="text-lg font-bold text-white">Star Relationships</h4>
+                <p class="text-[#b0b0b0] text-sm">The truth behind the headlines</p>
+              </div>
+            </div>
+            <p class="text-[#d0d0d0] mb-4">Breaking down celebrity romance dynamics with exclusive access</p>
+            <a href="#" class="text-[#FF6F61] font-semibold flex items-center">
+              Read more <i class="fas fa-arrow-right ml-2 text-sm"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-gradient-to-r from-[#003366] to-[#002244]">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Never miss a beat in Hollywood</h2>
+      <p class="text-xl text-[#e0e0e0] mb-10 max-w-2xl mx-auto">
+        Subscribe to our newsletter and get the latest celebrity news, exclusive interviews, and behind-the-scenes drama delivered straight to your inbox.
+      </p>
+      <div class="max-w-md mx-auto flex flex-col sm:flex-row gap-4">
+        <input 
+          type="email" 
+          placeholder="Your email address" 
+          class="flex-1 px-6 py-4 rounded-lg border border-white/20 bg-white/10 text-white placeholder-[#b0b0b0] focus:outline-none focus:ring-2 focus:ring-[#FF6F61] focus:border-transparent"
+        >
+        <button class="px-8 py-4 bg-[#FF6F61] hover:bg-[#e55e50] text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 whitespace-nowrap">
+          Subscribe Now
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[#000a1a] py-12 border-t border-white/10">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <div class="mb-6 md:mb-0">
+          <div class="flex items-center">
+            <div class="w-10 h-10 bg-[#FF6F61] rounded-full flex items-center justify-center mr-3">
+              <i class="fas fa-star text-white"></i>
+            </div>
+            <span class="text-2xl font-bold text-white">StarGossip Central</span>
+          </div>
+          <p class="text-[#b0b0b0] mt-2">Your premier destination for celebrity news</p>
+        </div>
+        <div class="flex space-x-6">
+          <a href="#" class="text-[#b0b0b0] hover:text-white transition-colors">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" class="text-[#b0b0b0] hover:text-white transition-colors">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="text-[#b0b0b0] hover:text-white transition-colors">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" class="text-[#b0b0b0] hover:text-white transition-colors">
+            <i class="fab fa-tiktok"></i>
+          </a>
+        </div>
+      </div>
+      <div class="border-t border-white/10 mt-8 pt-8 text-center text-[#b0b0b0]">
+        <p>&copy; {new Date().getFullYear()} StarGossip Central. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</Layout>
